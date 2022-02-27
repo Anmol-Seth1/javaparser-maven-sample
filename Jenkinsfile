@@ -11,7 +11,7 @@ pipeline
       }	
       steps {
         snykSecurity(
-          organisation: 'Jenkins-Pipeline',
+          organisation: 'anmol.seth',
           severity: 'low',
           snykInstallation: 'Snyk_Test',
           snykTokenId: 'Snyk-Jenkins',
